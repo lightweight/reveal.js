@@ -1,0 +1,24 @@
+html .overlay h1,
+html .overlay h2,
+html .overlay h3,
+html .overlay p,
+html .overlay .credit {
+	background-color: rgba(0,0,0,0.9);
+  color: #fff;
+}
+
+
+
+html .overlay h1 { padding: 0.1em; }
+html .overlay h2 { padding: 0.1em; }
+html .overlay h3 { padding: 0.1em; }
+html .overlay p { padding: 0.1em; }
+
+.slides .credit {
+  position: fixed;
+  bottom: -60%;
+  display: block;
+  right: 30%;
+  font-size: 80%;
+  padding: 0.2em;
+}
