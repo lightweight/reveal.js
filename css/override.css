@@ -36,3 +36,5 @@ html .overlay p { padding: 0.1em; }
 .reveal .left ul li,
 .reveal .left ol li { padding-left: 0.2em;}
 .reveal .left ol { margin-left: 20%; }
+
+.reveal .right img { float: right; margin-right: 5%;}
