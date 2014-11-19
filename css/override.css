@@ -17,10 +17,10 @@ html .overlay p { padding: 0.1em; }
 
 .slides .credit {
   position: fixed;
-  bottom: -40%;
+  bottom: -1em;
   display: block;
-  left: 0%;
-  font-size: 70%;
+  left: 35%;
+  font-size: 60%;
   padding: 0.2em;
 }
 .slides .license {
