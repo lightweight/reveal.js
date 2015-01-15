@@ -1,8 +1,9 @@
-html .overlay h1,
+	html .overlay h1,
 html .overlay h2,
 html .overlay h3,
 html .overlay p,
 html .overlay .credit,
+html .overlay .brand,
 html .overlay .license {
 	background-color: rgba(100,100,100,0.8);
   color: #fff;
@@ -15,14 +16,22 @@ html .overlay h2 { padding: 0.1em; }
 html .overlay h3 { padding: 0.1em; }
 html .overlay p { padding: 0.1em; }
 
-.slides .credit {
+.slides .credit, .slides .brand {
   position: fixed;
-  bottom: -40%;
   display: block;
   left: 0%;
   font-size: 70%;
   padding: 0.2em;
 }
+
+.slides .credit {
+	bottom: -40%;
+}
+
+.slides .brand {
+	bottom: -55%;
+}
+
 .slides .license {
   position: fixed;
   bottom: -40%;
